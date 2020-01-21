@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript" src="dist/msal/dist/msal.js"></script>
+<script>
+    const msalConfig = {
+        auth: {
+            clientId: 'c6c99ce2-14a3-45f4-8a8a-ca5e9ad49755',
+            authority: 'https://login.microsoftonline.com/common',
+            validateAuthority: true,
+            redirectUri: 'https://localhost:30666/auth.html'
+        },
+        cache: {
+            cacheLocation: 'localStorage',
+            storeAuthStateInCookie: false
+        }
+    };
+
+    debugger;
+    const msal = new Msal.UserAgentApplication(msalConfig);
+</script>
+</body>
+</html>
