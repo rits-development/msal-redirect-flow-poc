@@ -22,5 +22,6 @@ ClientAuthError: Invalid state. b6eae390-7d12-4fe1-b766-ea4c3df01995, state expe
 > npm i
 > node server.js 
 ```
+Navigate to `https://localhost:30666/`
 
 Ps: you can ignore the certificate error in the browser, it's self signed.
